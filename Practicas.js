@@ -57,7 +57,16 @@ const productsManager = new ProductManager();
 
 productsManager.addProduct({
     title: 'producto prueba',
-    description: 'Este es un producto de prueba',
+    description: 'Este es un producto prueba',
+    price: 200,
+    thumbnail: 'Sin imagen',
+    code: 'abc123',
+    stock: 25
+});
+
+productsManager.addProduct({
+    title: 'producto prueba',
+    description: 'Este es un producto prueba',
     price: 200,
     thumbnail: 'Sin imagen',
     code: 'abc123',
@@ -66,7 +75,7 @@ productsManager.addProduct({
 
 productsManager.addProduct({
     title: 'producto prueba 2',
-    description: 'Este es un segundo producto de prueba ',
+    description: 'Este es un segundo producto prueba ',
     price: 500,
     thumbnail: 'Sin imagen',
     code: 'def456',
@@ -74,4 +83,4 @@ productsManager.addProduct({
 });
 
 
-productsManager.getProductById(1);
+productsManager.getProductById(2);
