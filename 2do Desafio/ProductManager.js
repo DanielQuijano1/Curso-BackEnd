@@ -132,7 +132,7 @@ const manager = new ProductManager("archivos de entrada/prueba.txt")
 await manager.getProducts()
 await manager.addProduct(new Product("producto1", "description1", 11, "thumbnail1", 11, 1))
 await manager.addProduct(new Product("producto2", "description2", 21, "thumbnail2", 21, 2))
-await manager.addProduct(new Product("producto3", "description3", 31, "thumbnail3", 31, 3))
+await manager.addProduct(new Product("producto3", "description3", 31, "thumbnail3", 31, 3)) 
 await manager.getProducts()
 
 // EL metodo updateProduct(id del producto, campo a modificar en String, nuevo valor String/Integer/... dependiendo el caso)
