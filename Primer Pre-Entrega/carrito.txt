@@ -1,0 +1,34 @@
+[
+  [
+    {
+      "id": "14c32f0f-db55-4107-aea7-53185de55946"
+    },
+    {
+      "title": "tv1",
+      "description": "descripcion prod 2",
+      "price": 2500,
+      "thumbnail": "url imagen",
+      "stock": 45,
+      "code": "televisor",
+      "category": "hogar",
+      "status": true,
+      "id": "44820200-b24d-478f-84e9-e69c4f8cf650"
+    }
+  ],
+  [
+    {
+      "id": "e8f5ba25-acca-4ce9-99e2-629ed11790dd"
+    },
+    {
+      "title": "tv2",
+      "description": "descripcion prod 2",
+      "price": 2500,
+      "thumbnail": "url imagen",
+      "stock": 45,
+      "code": "televisor",
+      "category": "hogar",
+      "status": true,
+      "id": "44820200-b24d-478f-84e9-e69c4f8cf650"
+    }
+  ]
+]
